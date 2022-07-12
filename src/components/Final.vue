@@ -4,9 +4,9 @@
     <h1>Final Corizzo Martin PNT2 YA-21F</h1>
 
     <div>
-      <span>Color texto: <input type="text" v-model="color"> </span> 
-      <span>Fondo: <input type="text" v-model="fondo"> </span> 
-      <span>Size : <input type="text" v-model="size"> </span>
+      Color texto: <input type="text" v-model="color">
+      Color Fondo: <input type="text" v-model="fondo"> 
+      Tamaño (agregar px) : <input type="text" v-model="size">
       <hr>
       <p> Texto: <input :style="{color: color,background: fondo, fontSize: size}" type="text" v-model.trim="texto"> </p>
       <p> Cantidad de Palabras: {{ contarPalabras }} </p>
@@ -19,23 +19,28 @@
           <th> Respuestas </th>
         </tr>
       </thead>
+      <hr>
       <tbody>
         <tr>  
           <td> 1 </td>
           <td> B </td>
         </tr>
+        <hr>
          <tr>  
           <td> 2 </td>
           <td> C </td>
         </tr>
+        <hr>
         <tr>  
           <td> 3 </td>
           <td> B </td>
         </tr>
+        <hr>
         <tr>  
           <td> 4 </td>
           <td> D </td>
         </tr>
+        <hr>
         <tr>  
           <td> 5 </td>
           <td> D </td>
